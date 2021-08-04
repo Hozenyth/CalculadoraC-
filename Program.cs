@@ -84,11 +84,21 @@ namespace Projeto_CalculadoraC_
 
             foreach (double item in valuesList)
             {
-                Console.Write($"{item}, ");
+                Console.WriteLine($"{item}, ");
 
             }
 
             List<Operations> operationsList = new List<Operations>();
+
+            for (int i = 0; i < qtdValores - 1; i++)
+            {
+                Console.WriteLine($"{i + 1}ª Operação: ");
+                Operations input = (Operations)int.Parse(Console.ReadLine());
+
+                // double input = Convert.ToDouble(Console.ReadLine());
+                // valuesList.Add(input);
+            }
+
 
 
             //console
@@ -98,11 +108,27 @@ namespace Projeto_CalculadoraC_
             // / dividir
             // % mod
 
-            for (int i = 0; i < qtdValores - 1; i++)
-            {
-                string input = Convert.Console.ReadLine();
-                operationsList.Add(input);
-            }
+            // for (int i = 0; i < qtdValores - 1; i++)
+            // {
+            //     string input = Convert.Console.ReadLine();
+            //     operationsList.Add(input);
+            // }
         }
     }
 }
+
+/* static void testLinq()
+{
+    int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+    IEnumerable<int> numQuery =
+        from num in numeros
+        where (num % 2) == 0
+        select num;
+
+    foreach (int num in numQuery)
+    {
+        Console.WriteLine($"{num}, ");
+    }
+
+} */

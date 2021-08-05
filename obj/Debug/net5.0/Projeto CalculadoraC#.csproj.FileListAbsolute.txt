@@ -14,3 +14,19 @@ C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\De
 C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\ref\Projeto CalculadoraC#.dll
 C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.pdb
 C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC#.exe
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC#.deps.json
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC#.runtimeconfig.json
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC#.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC#.dll
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\bin\Debug\net5.0\ref\Projeto CalculadoraC#.dll
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC#.pdb
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.dll
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\ref\Projeto CalculadoraC#.dll
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.pdb
+C:\Users\Usuario\Desktop\LetsCode\.Net\ProjetoCalculadora\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC#.genruntimeconfig.cache

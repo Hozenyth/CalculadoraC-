@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\denni\\Desktop\\Programação\\Let's Code\\C#\\Projetos\\CalculadoraC-\\Projeto CalculadoraC#.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\LetsCode\\.Net\\ProjetoCalculadora\\CalculadoraC-\\Projeto CalculadoraC#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\denni\\Desktop\\Programação\\Let's Code\\C#\\Projetos\\CalculadoraC-\\Projeto CalculadoraC#.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\LetsCode\\.Net\\ProjetoCalculadora\\CalculadoraC-\\Projeto CalculadoraC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\denni\\Desktop\\Programação\\Let's Code\\C#\\Projetos\\CalculadoraC-\\Projeto CalculadoraC#.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\LetsCode\\.Net\\ProjetoCalculadora\\CalculadoraC-\\Projeto CalculadoraC#.csproj",
         "projectName": "Projeto CalculadoraC#",
-        "projectPath": "C:\\Users\\denni\\Desktop\\Programação\\Let's Code\\C#\\Projetos\\CalculadoraC-\\Projeto CalculadoraC#.csproj",
-        "packagesPath": "C:\\Users\\denni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\denni\\Desktop\\Programação\\Let's Code\\C#\\Projetos\\CalculadoraC-\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\LetsCode\\.Net\\ProjetoCalculadora\\CalculadoraC-\\Projeto CalculadoraC#.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\LetsCode\\.Net\\ProjetoCalculadora\\CalculadoraC-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\denni\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

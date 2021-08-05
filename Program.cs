@@ -7,11 +7,7 @@ namespace Projeto_CalculadoraC_
     {
         enum Operations
         {
-            Sum = 1,
-            Subtract = 2,
-            Multiply = 3,
-            Division = 4,
-            Mod = 5
+            Sum = 1, Subtract = 2, Multiply = 3, Division = 4, Mod = 5
         }
 
         static void Main(string[] args)
@@ -22,12 +18,14 @@ namespace Projeto_CalculadoraC_
 
         static void instructions()
         {
-            Console.WriteLine("Instruções");
+            Console.WriteLine("");
+            Console.WriteLine("--Bem Vindo a Let´s Calc !!!--");
+            Console.WriteLine(" --------Instruções--------- ");
         }
         static void menu1()
         {
 
-            Console.WriteLine("-----");
+            Console.WriteLine("");
             Console.WriteLine("Escolha uma das opções abaixo:");
             Console.WriteLine("1 - Realizar calculo");
             Console.WriteLine("2 - Sair");
@@ -66,8 +64,8 @@ namespace Projeto_CalculadoraC_
             int qtdValores = Int32.Parse(Console.ReadLine());
             int qtdOp = qtdValores - 1;
 
-            Console.WriteLine("Digite os valores a serem operados: ");
-            List<double> valuesList = new List<double>();
+            Console.WriteLine($"Digite os {qtdValores + 1} valores a serem operados: ");
+            List<double> valuesList = new List<double>(); 
             // int count = 0;
             // do
             // {
@@ -81,10 +79,10 @@ namespace Projeto_CalculadoraC_
                 valuesList.Add(input);
             }
 
-
             foreach (double item in valuesList)
             {
-                Console.WriteLine($"{item}, ");
+            
+                Console.WriteLine(item);
 
             }
 
@@ -94,25 +92,15 @@ namespace Projeto_CalculadoraC_
             {
                 Console.WriteLine($"{i + 1}ª Operação: ");
                 Operations input = (Operations)int.Parse(Console.ReadLine());
-
-                // double input = Convert.ToDouble(Console.ReadLine());
-                // valuesList.Add(input);
+                operationsList.Add(input);
             }
 
+            foreach (double item in operationsList)
+            {
 
+                Console.WriteLine(item);
+            }
 
-            //console
-            // + somar
-            // - subtrair
-            // * multiplicar
-            // / dividir
-            // % mod
-
-            // for (int i = 0; i < qtdValores - 1; i++)
-            // {
-            //     string input = Convert.Console.ReadLine();
-            //     operationsList.Add(input);
-            // }
         }
     }
 }
@@ -123,7 +111,7 @@ namespace Projeto_CalculadoraC_
 
     IEnumerable<int> numQuery =
         from num in numeros
-        where (num % 2) == 0
+        where (num % 2) == 04
         select num;
 
     foreach (int num in numQuery)

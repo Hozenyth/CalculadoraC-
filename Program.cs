@@ -7,7 +7,7 @@ namespace Projeto_CalculadoraC_
     {
         enum Operations
         {
-            Sum = 1, Subtract = 2, Multiply = 3, Division = 4, Mod = 5
+            Sum = 1, Subtract = 2, Multiply = 3, Division = 4, Mod = 5, Exit =6
         }
 
         static void Main(string[] args)
@@ -58,6 +58,44 @@ namespace Projeto_CalculadoraC_
             return;
         }
 
+        static void menu2(){
+            //bool choseExit = false;
+           //while (!choseExit)
+            //{
+                
+                Console.WriteLine("1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-Mod\n6-Sair");
+                Operations menu = (Operations)int.Parse(Console.ReadLine());
+
+                switch (menu)
+                {
+                    case Operations.Sum:
+                        //Soma();
+                        break;
+                    case Operations.Subtract:
+                        //Sub();
+                        break;
+                    case Operations.Multiply:
+                        //Mult();
+                        break; 
+                    case Operations.Division:
+                        //Div();
+                        break;  
+                    case Operations.Mod:
+                        //Mod();
+                        break;  
+                    // case Operations.Exit:
+                    //     choseExit = true;
+                    //     break;
+                    default:
+                    Console.WriteLine("Escolha uma opção valida!");
+                    break;
+         
+                }
+               
+            
+        }
+
+
         static void doCalc()
         {
             Console.Write("Digite o número de operações: ");
@@ -66,14 +104,8 @@ namespace Projeto_CalculadoraC_
 
             Console.WriteLine($"Digite os {qtdValores + 1} valores a serem operados: ");
             List<double> valuesList = new List<double>(); 
-            // int count = 0;
-            // do
-            // {
-            //     double input = Convert.ToDouble(Console.ReadLine());
-            //     valuesList.Add(input);
-            //     count++;
-            // } while (count < qtdValores);
-            for (int i = 0; i < qtdValores; i++)
+          
+            for (int i = 0; i <= qtdValores; i++)
             {
                 double input = Convert.ToDouble(Console.ReadLine());
                 valuesList.Add(input);
@@ -88,14 +120,15 @@ namespace Projeto_CalculadoraC_
 
             List<Operations> operationsList = new List<Operations>();
 
-            for (int i = 0; i < qtdValores - 1; i++)
+            for (int i = 0; i < qtdValores; i++)
             {
-                Console.WriteLine($"{i + 1}ª Operação: ");
+                Console.WriteLine($"Escolha entre as opções a {i + 1}ª Operação: ");
+                menu2();
                 Operations input = (Operations)int.Parse(Console.ReadLine());
                 operationsList.Add(input);
             }
 
-            foreach (double item in operationsList)
+            foreach (Operations item in operationsList)
             {
 
                 Console.WriteLine(item);
@@ -103,6 +136,7 @@ namespace Projeto_CalculadoraC_
 
         }
     }
+
 }
 
 /* static void testLinq()

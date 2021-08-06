@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Projeto CalculadoraC#/1.0.0": {
+      "Projeto CalculadoraC_/1.0.0": {
         "runtime": {
-          "Projeto CalculadoraC#.dll": {}
+          "Projeto CalculadoraC_.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Projeto CalculadoraC#/1.0.0": {
+    "Projeto CalculadoraC_/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

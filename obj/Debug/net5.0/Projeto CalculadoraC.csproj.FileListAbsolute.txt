@@ -1,0 +1,16 @@
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC.exe
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC.deps.json
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC.runtimeconfig.json
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC.runtimeconfig.dev.json
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC.dll
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\ref\Projeto CalculadoraC.dll
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC.pdb
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC.csproj.AssemblyReference.cache
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC.AssemblyInfoInputs.cache
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC.AssemblyInfo.cs
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC.csproj.CoreCompileInputs.cache
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC.dll
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\ref\Projeto CalculadoraC.dll
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC.pdb
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC.genruntimeconfig.cache

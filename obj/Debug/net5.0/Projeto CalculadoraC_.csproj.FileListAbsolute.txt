@@ -1,0 +1,16 @@
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC_.exe
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC_.deps.json
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC_.runtimeconfig.json
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC_.runtimeconfig.dev.json
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC_.dll
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\ref\Projeto CalculadoraC_.dll
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\bin\Debug\net5.0\Projeto CalculadoraC_.pdb
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC_.csproj.AssemblyReference.cache
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC_.AssemblyInfoInputs.cache
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC_.AssemblyInfo.cs
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC_.csproj.CoreCompileInputs.cache
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC_.dll
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\ref\Projeto CalculadoraC_.dll
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC_.pdb
+C:\Users\denni\Desktop\Programação\Let's Code\C#\Projetos\CalculadoraC-\obj\Debug\net5.0\Projeto CalculadoraC_.genruntimeconfig.cache

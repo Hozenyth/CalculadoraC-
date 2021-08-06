@@ -1,0 +1,16 @@
+C:\Users\alexa\Projeto CalculadoraC#\bin\Debug\net5.0\Projeto CalculadoraC#.exe
+C:\Users\alexa\Projeto CalculadoraC#\bin\Debug\net5.0\Projeto CalculadoraC#.deps.json
+C:\Users\alexa\Projeto CalculadoraC#\bin\Debug\net5.0\Projeto CalculadoraC#.runtimeconfig.json
+C:\Users\alexa\Projeto CalculadoraC#\bin\Debug\net5.0\Projeto CalculadoraC#.runtimeconfig.dev.json
+C:\Users\alexa\Projeto CalculadoraC#\bin\Debug\net5.0\Projeto CalculadoraC#.dll
+C:\Users\alexa\Projeto CalculadoraC#\bin\Debug\net5.0\ref\Projeto CalculadoraC#.dll
+C:\Users\alexa\Projeto CalculadoraC#\bin\Debug\net5.0\Projeto CalculadoraC#.pdb
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\Projeto CalculadoraC#.csprojAssemblyReference.cache
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\Projeto CalculadoraC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\Projeto CalculadoraC#.AssemblyInfoInputs.cache
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\Projeto CalculadoraC#.AssemblyInfo.cs
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\Projeto CalculadoraC#.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\Projeto CalculadoraC#.dll
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\ref\Projeto CalculadoraC#.dll
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\Projeto CalculadoraC#.pdb
+C:\Users\alexa\Projeto CalculadoraC#\obj\Debug\net5.0\Projeto CalculadoraC#.genruntimeconfig.cache

@@ -190,6 +190,7 @@ namespace Projeto_CalculadoraC_
 
             return minValue;
         }
+        
         static void menu2()
         {
             Console.WriteLine("-----");
@@ -205,7 +206,7 @@ namespace Projeto_CalculadoraC_
                 Console.Write("Escolha uma das opções: ");
                 opcao = Convert.ToInt32(Console.ReadLine());
 
-                if (opcao != 1 && opcao != 2 && opcao != 3) Console.WriteLine("Opção Invalida, tente novamente!");
+                 if (opcao != 1 && opcao != 2 && opcao != 3) Console.WriteLine("Opção Invalida, tente novamente!");
             } while (opcao != 1 && opcao != 2 && opcao != 3);
 
             switch (opcao)
@@ -213,14 +214,15 @@ namespace Projeto_CalculadoraC_
                 case 1:
                     doCalc(); // execução do cálculo
                     break;
-                // case 2:
-                //     foreach (var i in )
-                //     {
-                //         Console.WriteLine($"O resultado da {i + 1}ª operação foi {resultsList(0)}");
-                //     }
-                //     menu2();
+                case 2:
+                    for (int i = 0; i < resultsList.Count(); i++)
+                    {
+                        Console.WriteLine($"O resultado da {i + 1}ª operação foi {(resultsList.ElementAt(i))}");
+                    }
+                    menu2();
+                    break;
                 case 3:
-                    return; // encerrar programa
+                    return; // encerrar programa    
             }
         }
     }

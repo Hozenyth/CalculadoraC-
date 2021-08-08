@@ -76,6 +76,8 @@ namespace Projeto_CalculadoraC_
                     return; // encerrar programa
             }
         }
+        
+        static List<Double> resultsList = new List<Double>();
 
         static void doCalc()
         {
@@ -99,14 +101,14 @@ namespace Projeto_CalculadoraC_
             {
                 Console.WriteLine($"{i + 1}ª Operação: ");
                 Operations input = (Operations)int.Parse(Console.ReadLine());
+                operationsList.Add(input);
             }
 
             double res = interectLists(valuesList, operationsList); //define um double resultado
 
             Console.WriteLine($"O resultado da operação é {res}"); // imprime o resultado
-
-            // List<Double> resultsList = new List<Double>();
-            // resultsList.Add(res); // guarda o resultado em uma lista
+            
+            resultsList.Add(res); // guarda o resultado em uma lista
 
             menu2();
         }

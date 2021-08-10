@@ -146,7 +146,7 @@ namespace Projeto_CalculadoraC_
             {
                 res = Math.Floor(newValuesList.ElementAt(indexPriority) / newValuesList.ElementAt(indexPriority + 1));
             }
-            else (newOperationsList.ElementAt(indexPriority) == Operations.Mod)
+            else
             {
                 res = newValuesList.ElementAt(indexPriority) % newValuesList.ElementAt(indexPriority + 1);
             }

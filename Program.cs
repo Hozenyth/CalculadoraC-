@@ -23,12 +23,15 @@ namespace Projeto_CalculadoraC_
 
         static void instructions()
         {
-            Console.WriteLine("Instruções de uso...");
+            Console.WriteLine("");
+            Console.WriteLine("--Bem Vindo a Let´s Calc !!!--");
+            Console.WriteLine(" --------Instruções------------);
+            
         }
 
         static void menu1()
         {
-            Console.WriteLine("-----");
+          
             Console.WriteLine("Escolha uma das opções abaixo:");
             Console.WriteLine("1 - Realizar calculo");
             Console.WriteLine("2 - Sair");
@@ -61,7 +64,7 @@ namespace Projeto_CalculadoraC_
             int qtdOp = Int32.Parse(Console.ReadLine());
             int qtdValores = qtdOp + 1;
 
-            Console.WriteLine("Digite os valores a serem operados: ");
+            Console.WriteLine($"Digite os {qtdValores} valores a serem operados: ");
             List<double> valuesList = new List<double>();
             for (int i = 0; i < qtdValores; i++)
             {

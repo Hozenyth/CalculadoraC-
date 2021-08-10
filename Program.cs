@@ -74,12 +74,13 @@ namespace Projeto_CalculadoraC_
             }
 
             Console.WriteLine("Digite as operações que serão realizadas: ");
+            Console.WriteLine("1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-Mod");
 
             List<Operations> operationsList = new List<Operations>();
 
             for (int i = 0; i < qtdOp; i++)
             {
-                Console.WriteLine($"{i + 1}ª Operação: ");
+                Console.WriteLine($"Digite a {i + 1}ª Operação: ");
                 Operations input = (Operations)int.Parse(Console.ReadLine());
                 operationsList.Add(input);
             }

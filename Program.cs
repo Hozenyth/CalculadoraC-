@@ -25,7 +25,7 @@ namespace Projeto_CalculadoraC_
         {
             Console.WriteLine("");
             Console.WriteLine("--Bem Vindo a Let´s Calc !!!--");
-            Console.WriteLine(" --------Instruções------------);
+            Console.WriteLine(" --------Instruções------------");
             
         }
 

@@ -14,35 +14,11 @@ namespace Projeto_CalculadoraC_
             Division = 4,
             Mod = 5
         }
-        
+
         static void Main(string[] args)
         {
-            // List<double> valuesList = new List<double>();
-            // List<Operations> operationsList = new List<Operations>();
-
-            // valuesList.Add(10);
-            // valuesList.Add(10);
-            // valuesList.Add(7);
-            // valuesList.Add(2);
-
-            // operationsList.Add((Operations)int.Parse("2"));
-            // operationsList.Add((Operations)int.Parse("5"));
-            // operationsList.Add((Operations)int.Parse("3"));
-
-            // // 10 - 10 % 7 * 2 
-            // // 10 - 3 * 2
-            // // 10 - 6
-            // // 4
-
-            // Console.WriteLine(interectLists(valuesList, operationsList));
-
-            // foreach (var item in valuesList)
-            // {
-            //     Console.WriteLine(item);
-            // }
-
-            instructions();// 1. apresentar instruções de uso
-            menu1();// 2. apresentar opções
+            instructions();
+            menu1();
         }
 
         static void instructions()
@@ -73,10 +49,10 @@ namespace Projeto_CalculadoraC_
                     doCalc(); // execução do cálculo
                     break;
                 case 2:
-                    return; // encerrar programa
+                    return;
             }
         }
-        
+
         static List<Double> resultsList = new List<Double>();
 
         static void doCalc()
@@ -89,6 +65,7 @@ namespace Projeto_CalculadoraC_
             List<double> valuesList = new List<double>();
             for (int i = 0; i < qtdValores; i++)
             {
+                Console.WriteLine($"{i + 1}º Valor: ");
                 double input = Convert.ToDouble(Console.ReadLine());
                 valuesList.Add(input);
             }
@@ -104,10 +81,10 @@ namespace Projeto_CalculadoraC_
                 operationsList.Add(input);
             }
 
-            double res = interectLists(valuesList, operationsList); //define um double resultado
+            double res = interectLists(valuesList, operationsList);
 
-            Console.WriteLine($"O resultado da operação é {res}"); // imprime o resultado
-            
+            Console.WriteLine($"O resultado da operação é {res}");
+
             resultsList.Add(res); // guarda o resultado em uma lista
 
             menu2();
@@ -116,17 +93,35 @@ namespace Projeto_CalculadoraC_
         static double interectLists(List<double> vL, List<Operations> oL)
         {
             List<double> newValuesList = new List<double>();
+
             foreach (var item in vL)
             {
                 newValuesList.Add(item);
             }
-            // newValuesList = vL;
+
+            /*
+            definição do negócio
+            5 / 2 + 1,5 -> 2 + 1,5 -> 3,5
+            5 / 2 + 1,5 -> 2,5 + 1,5 -> 4 xxxxxxx retorno isso!
+
+            5 / 2 + 1 -> 3,5
+            5 / 2 + 1 -> 3 xxxxxx retorno isso!
+            */
+
+            // busca de decimais entre no newValuesList
+            var decimalList =
+            from value in newValuesList
+            where Math.Floor(value) != value
+            select value;
+
+            // se existir elemento nessa Lista Busca, significa que existe DECIMAL entre os valores
+            bool hasDecimals = (decimalList.Count() > 0) ? true : false;
+
             List<Operations> newOperationsList = new List<Operations>();
             foreach (var item in oL)
             {
                 newOperationsList.Add(item);
             }
-            // newOperationsList = oL;
             double res = 0;
 
             int indexPriority = searchMinValue(newOperationsList);
@@ -135,24 +130,26 @@ namespace Projeto_CalculadoraC_
             {
                 res = newValuesList.ElementAt(indexPriority) + newValuesList.ElementAt(indexPriority + 1);
             }
-            if (newOperationsList.ElementAt(indexPriority) == Operations.Subtract)
+            else if (newOperationsList.ElementAt(indexPriority) == Operations.Subtract)
             {
                 res = newValuesList.ElementAt(indexPriority) - newValuesList.ElementAt(indexPriority + 1);
             }
-            if (newOperationsList.ElementAt(indexPriority) == Operations.Multiply)
+            else if (newOperationsList.ElementAt(indexPriority) == Operations.Multiply)
             {
                 res = newValuesList.ElementAt(indexPriority) * newValuesList.ElementAt(indexPriority + 1);
             }
-            if (newOperationsList.ElementAt(indexPriority) == Operations.Division)
+            else if (newOperationsList.ElementAt(indexPriority) == Operations.Division && hasDecimals)
             {
                 res = newValuesList.ElementAt(indexPriority) / newValuesList.ElementAt(indexPriority + 1);
             }
-            if (newOperationsList.ElementAt(indexPriority) == Operations.Mod)
+            else if (newOperationsList.ElementAt(indexPriority) == Operations.Division && !hasDecimals)
+            {
+                res = Math.Floor(newValuesList.ElementAt(indexPriority) / newValuesList.ElementAt(indexPriority + 1));
+            }
+            else (newOperationsList.ElementAt(indexPriority) == Operations.Mod)
             {
                 res = newValuesList.ElementAt(indexPriority) % newValuesList.ElementAt(indexPriority + 1);
             }
-
-// 10 1
 
             // retorna newValuesList (n) e newOperationsList (n-1)
             newValuesList.RemoveAt(indexPriority);
@@ -190,7 +187,7 @@ namespace Projeto_CalculadoraC_
 
             return minValue;
         }
-        
+
         static void menu2()
         {
             Console.WriteLine("-----");
@@ -206,13 +203,13 @@ namespace Projeto_CalculadoraC_
                 Console.Write("Escolha uma das opções: ");
                 opcao = Convert.ToInt32(Console.ReadLine());
 
-                 if (opcao != 1 && opcao != 2 && opcao != 3) Console.WriteLine("Opção Invalida, tente novamente!");
+                if (opcao != 1 && opcao != 2 && opcao != 3) Console.WriteLine("Opção Invalida, tente novamente!");
             } while (opcao != 1 && opcao != 2 && opcao != 3);
 
             switch (opcao)
             {
                 case 1:
-                    doCalc(); // execução do cálculo
+                    doCalc();
                     break;
                 case 2:
                     for (int i = 0; i < resultsList.Count(); i++)
@@ -222,37 +219,8 @@ namespace Projeto_CalculadoraC_
                     menu2();
                     break;
                 case 3:
-                    return; // encerrar programa    
+                    return;
             }
         }
     }
 }
-
-
-// a = 2 + 2 * 2 + 1
-
-
-// novaA = 2 + 4 + 1
-
-
-// list3 = l11
-
-
-
-
-
-/* static void testLinq()
-{
-    int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
-    IEnumerable<int> numQuery =
-        from num in numeros
-        where (num % 2) == 0
-        select num;
-
-    foreach (int num in numQuery)
-    {
-        Console.WriteLine($"{num}, ");
-    }
-
-} */

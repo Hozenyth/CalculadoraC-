@@ -13,6 +13,9 @@
  <li> Não deve possuir limite de operações a ser realizadas </li> <br>
 <li>Deve apresentar um menu para orientar o usuário sobre a ordem </li> <br>
   <ol>
+   
+<h2> Diagrama de caso de uso da Calculadora</h2>
+<img src="CasoDeUso.jpg">
     
 
     
